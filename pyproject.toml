@@ -1,6 +1,6 @@
 [project]
 name = "refactoring-cli"
-version = "0.6.2"
+version = "0.7.0"
 description = "Refactors Python code. Analyses a Python codebase for structural problems and code smells, proposes behaviour-preserving refactorings with a rationale, and applies them under test. Successor to the retired refactor-cli, whose atomic-transformation lane it absorbs."
 readme = "README.md"
 license = "Apache-2.0"
