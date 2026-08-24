@@ -5,6 +5,17 @@ All notable changes to this project will be documented in this file.
 Format follows [Keep a Changelog](https://keepachangelog.com/). This project
 adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.6.2] - 2026-08-24
+
+### Changed
+
+- Re-initialized `CLAUDE.md` from the bootstrap seed into a full runtime prompt: repo status (the refactoring lane is scaffold-only today), build/lint/test commands as CI runs them, the three-layer CLI architecture and its rubric-enforced contracts, an 8-step checklist for adding a noun/verb, and the working conventions (version-bump-every-PR, the cicd lane, cite-don't-import skills, worktree layout, memory discipline).
+- Updated `README.md` to describe this agent rather than the template it was scaffolded from: added a Status section stating the analyse-propose-apply surface is not implemented yet, corrected the vendored skill count from 11 to 18, and replaced the clone-a-template `Make it your own` checklist with a Contributing section.
+
+### Fixed
+
+- `README.md` Quickstart invoked `refactoring-cli`, which is the distribution name, not the console script — the commands failed with `Failed to spawn: refactoring-cli`. Corrected to `refactor`, and documented the incomplete template rename (package/script `refactor` vs `refactoring-cli` everywhere else) in both `README.md` and `CLAUDE.md`.
+
 ## [0.6.1] - 2026-07-20
 
 ### Added
